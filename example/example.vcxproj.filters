@@ -1,54 +1,2205 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <ItemGroup>
-    <Filter Include="src">
-      <UniqueIdentifier>{f7c151c1-2179-4609-a236-a7585f2984f1}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="addons">
-      <UniqueIdentifier>{b0b55084-1076-4718-9ec2-42a13d902ef8}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="addons\ofxMessagePack">
-      <UniqueIdentifier>{78b12e90-7ca4-43b0-be5b-d54ddc1b8255}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="addons\ofxMessagePack\src">
-      <UniqueIdentifier>{4c6b3d0b-f205-4ac7-8dc0-e2ef25bd4bd0}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="addons\ofxMessagePack\src\ofxMessagePack">
-      <UniqueIdentifier>{9769e770-d62c-4fdd-9a7b-441fed9c20f1}</UniqueIdentifier>
-    </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="src\ofApp.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="src\main.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\ofxMessagePack\Packer.cpp">
-      <Filter>addons\ofxMessagePack\src\ofxMessagePack</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\ofxMessagePack\Stream.cpp">
-      <Filter>addons\ofxMessagePack\src\ofxMessagePack</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\ofxMessagePack\Unpacker.cpp">
-      <Filter>addons\ofxMessagePack\src\ofxMessagePack</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="src\ofApp.h">
-      <Filter>src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\ofxMessagePack.h">
-      <Filter>addons\ofxMessagePack\src</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\ofxMessagePack\Packer.h">
-      <Filter>addons\ofxMessagePack\src\ofxMessagePack</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\ofxMessagePack\Stream.h">
-      <Filter>addons\ofxMessagePack\src\ofxMessagePack</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\ofxMessagePack\Unpacker.h">
-      <Filter>addons\ofxMessagePack\src\ofxMessagePack</Filter>
-    </ClInclude>
-  </ItemGroup>
+	<ItemGroup>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxMessagePack\src\ofxMessagePack\Packer.cpp">
+			<Filter>addons\ofxMessagePack\src\ofxMessagePack</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxMessagePack\src\ofxMessagePack\Stream.cpp">
+			<Filter>addons\ofxMessagePack\src\ofxMessagePack</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxMessagePack\src\ofxMessagePack\Unpacker.cpp">
+			<Filter>addons\ofxMessagePack\src\ofxMessagePack</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="src">
+			<UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons">
+			<UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack">
+			<UniqueIdentifier>{2AA64F87-F02E-A96E-063A-7CEA}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\src">
+			<UniqueIdentifier>{1BA181C2-0000-B2A1-5750-A065}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\src\ofxMessagePack">
+			<UniqueIdentifier>{5B03774F-152C-F60E-99AE-21D5}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs">
+			<UniqueIdentifier>{BA3AC6E0-C420-D38D-E3D5-5FAE}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c">
+			<UniqueIdentifier>{41C789D1-19EF-3C97-8A40-3C36}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include">
+			<UniqueIdentifier>{8AB79D51-7516-2215-1CA9-2535}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack">
+			<UniqueIdentifier>{7B741A5B-9EFD-FE54-4056-A093}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor">
+			<UniqueIdentifier>{A77BC251-C90E-B8E4-72B7-2410}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\boost">
+			<UniqueIdentifier>{9591CA52-3FCB-04DA-DB0A-7747}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\cpp11">
+			<UniqueIdentifier>{46858297-6666-8A3E-35C3-2309}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\tr1">
+			<UniqueIdentifier>{5E82A965-AFE3-34BF-EAE4-BFCF}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef">
+			<UniqueIdentifier>{52DBCAB4-BCF9-6CD4-406A-E6BA}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\architecture">
+			<UniqueIdentifier>{447022C4-CCA0-4FAC-5FD3-8330}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\architecture\x86">
+			<UniqueIdentifier>{555E33D2-8173-32EC-C2E6-9F4E}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler">
+			<UniqueIdentifier>{32EB1D40-9887-7F73-3B8D-5C3C}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\detail">
+			<UniqueIdentifier>{3D177DBA-D28C-340A-193A-3499}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\hardware">
+			<UniqueIdentifier>{9BB66A93-2149-BDC3-8364-FB12}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\hardware\simd">
+			<UniqueIdentifier>{5B439822-A8FD-8276-CACF-D167}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\hardware\simd\arm">
+			<UniqueIdentifier>{2C1EA595-4CB8-4D60-A46B-BB38}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\hardware\simd\ppc">
+			<UniqueIdentifier>{517C04F1-E28B-4616-4B0F-2E22}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\hardware\simd\x86">
+			<UniqueIdentifier>{745CA746-0AD5-2246-7CAF-A30B}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\hardware\simd\x86_amd">
+			<UniqueIdentifier>{5034B40B-AA11-3739-A9A7-E557}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\language">
+			<UniqueIdentifier>{12F3FFFF-E083-0093-5148-FB0C}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\library">
+			<UniqueIdentifier>{7F08BFBB-CD24-B97D-C77D-B04A}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\library\c">
+			<UniqueIdentifier>{202D8530-37B3-9453-30E7-AB60}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\library\std">
+			<UniqueIdentifier>{3D655673-B39B-F7A9-A1A1-A3F2}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\os">
+			<UniqueIdentifier>{223DCB37-F9CF-31C6-0A06-D39C}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\os\bsd">
+			<UniqueIdentifier>{161242A5-5CDD-560A-286B-C5FB}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\other">
+			<UniqueIdentifier>{7B09B185-B2A3-B762-5C60-7C0A}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\platform">
+			<UniqueIdentifier>{860A778F-6B6D-6392-E23E-ABDF}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor">
+			<UniqueIdentifier>{C9444E91-D68C-B276-9EB4-B871}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\arithmetic">
+			<UniqueIdentifier>{EA931DB2-8D5D-2293-213D-C1DF}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\arithmetic\detail">
+			<UniqueIdentifier>{2981CE08-73E3-A1C4-9CB5-C2A4}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\array">
+			<UniqueIdentifier>{CEE61485-211A-D176-D603-DDA0}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\array\detail">
+			<UniqueIdentifier>{7734BBAE-F878-A093-C67B-A88A}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\comparison">
+			<UniqueIdentifier>{1E83182A-4B92-1656-5EF5-7663}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\config">
+			<UniqueIdentifier>{3FFF6439-99FF-7483-3435-4372}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\control">
+			<UniqueIdentifier>{81175064-B085-0154-3460-422F}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\control\detail">
+			<UniqueIdentifier>{A6A1AFCF-3D3E-1EC9-B52D-F942}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\control\detail\dmc">
+			<UniqueIdentifier>{CAAFE9F0-DB84-F7DC-A0E6-C163}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\control\detail\edg">
+			<UniqueIdentifier>{B44CACBB-D8D1-0808-6C92-94AD}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\control\detail\msvc">
+			<UniqueIdentifier>{62DCDEF7-79B9-41E6-A31D-9FDD}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\detail">
+			<UniqueIdentifier>{C291C8D8-4D8C-BBBB-1401-F8F7}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\detail\dmc">
+			<UniqueIdentifier>{6F6B5B75-A883-88EC-9852-229C}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\facilities">
+			<UniqueIdentifier>{927FBE5D-A8BD-8D32-D6EE-075F}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\facilities\detail">
+			<UniqueIdentifier>{CD248A92-9C0D-CBCD-4084-2CAD}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration">
+			<UniqueIdentifier>{77194781-CB29-5AB6-19F5-2C5E}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail">
+			<UniqueIdentifier>{9BF51877-1F92-9A7C-3E81-4BE8}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail\bounds">
+			<UniqueIdentifier>{0FE19C55-36AD-667E-04DE-951D}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail\iter">
+			<UniqueIdentifier>{1C14CE8E-05CD-78BB-8139-2957}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list">
+			<UniqueIdentifier>{99624BA1-6D6D-446E-600B-8E50}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list\detail">
+			<UniqueIdentifier>{3038B773-1B79-3159-51B8-5E6F}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list\detail\dmc">
+			<UniqueIdentifier>{FDDE5C21-AD25-1659-A104-CFD2}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list\detail\edg">
+			<UniqueIdentifier>{F2873072-50C5-7EDF-1D16-BFE1}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\logical">
+			<UniqueIdentifier>{B987EEDF-85C6-1BDF-909F-05A0}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\punctuation">
+			<UniqueIdentifier>{0C68F136-9610-4091-5C21-4DFC}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\punctuation\detail">
+			<UniqueIdentifier>{C3EC1259-969F-3B78-7AEE-4F5E}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\repetition">
+			<UniqueIdentifier>{E46F775B-660B-4898-CAB6-1767}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\repetition\detail">
+			<UniqueIdentifier>{06989061-F0A1-C8CB-7F63-2EF3}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\repetition\detail\dmc">
+			<UniqueIdentifier>{A70883A0-5E32-5EA0-4E80-D570}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\repetition\detail\edg">
+			<UniqueIdentifier>{D6EF7DA0-C4D3-986F-4FAE-C583}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\repetition\detail\msvc">
+			<UniqueIdentifier>{E159C567-83DE-B3DF-9551-43F8}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\selection">
+			<UniqueIdentifier>{F9AEC9A6-32B0-5247-EFB4-1DF0}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq">
+			<UniqueIdentifier>{C80E1A51-2D90-F272-3725-7C48}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq\detail">
+			<UniqueIdentifier>{2B30B41E-F61E-94B1-CF46-A274}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\slot">
+			<UniqueIdentifier>{CCFD6B2B-530A-5163-2395-C456}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\slot\detail">
+			<UniqueIdentifier>{992761E5-8714-3E5A-6882-76B3}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\tuple">
+			<UniqueIdentifier>{DB8D4342-457B-CB80-7E99-2344}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\tuple\detail">
+			<UniqueIdentifier>{A529B72F-A786-A910-49E3-57EA}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\variadic">
+			<UniqueIdentifier>{043ACF8E-5647-BE0D-9BE1-3F22}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\variadic\detail">
+			<UniqueIdentifier>{B75BBD81-C11C-0656-E7F8-1D06}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1">
+			<UniqueIdentifier>{1AF44EC9-68D4-7F90-8536-721A}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor">
+			<UniqueIdentifier>{83327C1B-2E99-E9DC-39B6-C82B}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\boost">
+			<UniqueIdentifier>{24D44D65-5D43-5119-6C43-D0F0}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\cpp11">
+			<UniqueIdentifier>{E221F5EA-2AD3-FA82-9867-A501}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\detail">
+			<UniqueIdentifier>{7C77D362-7D8D-B268-FA88-745D}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\tr1">
+			<UniqueIdentifier>{C8EE5B82-2C55-12F9-AB2F-69F2}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\detail">
+			<UniqueIdentifier>{7E8B60A4-1D59-C774-4F9C-AA71}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2">
+			<UniqueIdentifier>{CCADD25F-A315-E5FA-CA71-E729}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\adaptor">
+			<UniqueIdentifier>{62B5DEC4-D767-0B85-8361-3DC2}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\adaptor\boost">
+			<UniqueIdentifier>{F0801AAC-7FBB-FBBD-6BD3-A1B7}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\adaptor\detail">
+			<UniqueIdentifier>{00C1013C-FA1A-6F20-9537-0E92}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\detail">
+			<UniqueIdentifier>{2A190B20-8837-2BB0-6C2D-825F}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\src\ofxMessagePack\Packer.h">
+			<Filter>addons\ofxMessagePack\src\ofxMessagePack</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\src\ofxMessagePack\Stream.h">
+			<Filter>addons\ofxMessagePack\src\ofxMessagePack</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\src\ofxMessagePack\Unpacker.h">
+			<Filter>addons\ofxMessagePack\src\ofxMessagePack</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\src\ofxMessagePack.h">
+			<Filter>addons\ofxMessagePack\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\adaptor_base.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\adaptor_base_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\array_ref.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\array_ref_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\bool.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\boost\fusion.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\boost</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\boost\msgpack_variant.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\boost</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\boost\msgpack_variant_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\boost</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\boost\optional.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\boost</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\boost\string_ref.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\boost</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\carray.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\char_ptr.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\check_container_size.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\check_container_size_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\cpp11\array.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\cpp11</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\cpp11\array_char.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\cpp11</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\cpp11\array_unsigned_char.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\cpp11</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\cpp11\forward_list.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\cpp11</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\cpp11\reference_wrapper.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\cpp11</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\cpp11\shared_ptr.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\cpp11</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\cpp11\tuple.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\cpp11</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\cpp11\unique_ptr.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\cpp11</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\cpp11\unordered_map.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\cpp11</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\cpp11\unordered_set.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\cpp11</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\define.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\define_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\deque.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\ext.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\ext_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\fixint.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\fixint_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\float.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\int.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\int_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\list.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\map.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\map_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\msgpack_tuple.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\msgpack_tuple_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\nil.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\nil_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\pair.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\raw.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\raw_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\set.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\size_equal_only.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\size_equal_only_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\string.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\tr1\unordered_map.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\tr1</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\tr1\unordered_set.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\tr1</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\v4raw.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\v4raw_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\vector.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\vector_bool.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\vector_char.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor\vector_unsigned_char.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\cpp_config.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\cpp_config_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\fbuffer.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\fbuffer.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\fbuffer_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\gcc_atomic.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\gcc_atomic.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\iterator.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\iterator_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\meta.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\meta_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\object.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\object.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\object_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\object_fwd.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\object_fwd_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\pack.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\pack.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\pack_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\pack_define.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\pack_template.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\architecture\alpha.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\architecture</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\architecture\arm.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\architecture</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\architecture\blackfin.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\architecture</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\architecture\convex.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\architecture</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\architecture\ia64.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\architecture</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\architecture\m68k.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\architecture</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\architecture\mips.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\architecture</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\architecture\parisc.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\architecture</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\architecture\ppc.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\architecture</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\architecture\pyramid.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\architecture</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\architecture\rs6k.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\architecture</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\architecture\sparc.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\architecture</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\architecture\superh.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\architecture</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\architecture\sys370.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\architecture</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\architecture\sys390.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\architecture</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\architecture\x86\32.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\architecture\x86</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\architecture\x86\64.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\architecture\x86</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\architecture\x86.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\architecture</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\architecture\z.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\architecture</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\architecture.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler\borland.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler\clang.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler\comeau.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler\compaq.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler\diab.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler\digitalmars.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler\dignus.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler\edg.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler\ekopath.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler\gcc.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler\gcc_xml.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler\greenhills.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler\hp_acc.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler\iar.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler\ibm.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler\intel.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler\kai.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler\llvm.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler\metaware.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler\metrowerks.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler\microtec.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler\mpw.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler\palm.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler\pgi.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler\sgi_mipspro.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler\sunpro.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler\tendra.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler\visualc.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler\watcom.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\compiler.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\detail\comp_detected.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\detail\endian_compat.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\detail\os_detected.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\detail\platform_detected.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\detail\test.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\detail\test_def.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\detail\_cassert.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\detail\_exception.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\hardware\simd\arm\versions.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\hardware\simd\arm</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\hardware\simd\arm.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\hardware\simd</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\hardware\simd\ppc\versions.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\hardware\simd\ppc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\hardware\simd\ppc.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\hardware\simd</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\hardware\simd\x86\versions.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\hardware\simd\x86</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\hardware\simd\x86.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\hardware\simd</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\hardware\simd\x86_amd\versions.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\hardware\simd\x86_amd</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\hardware\simd\x86_amd.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\hardware\simd</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\hardware\simd.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\hardware</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\hardware.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\language\objc.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\language</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\language\stdc.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\language</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\language\stdcpp.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\language</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\language.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\library\c\gnu.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\library\c</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\library\c\uc.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\library\c</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\library\c\vms.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\library\c</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\library\c\zos.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\library\c</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\library\c\_prefix.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\library\c</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\library\c.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\library</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\library\std\cxx.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\library\std</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\library\std\dinkumware.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\library\std</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\library\std\libcomo.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\library\std</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\library\std\modena.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\library\std</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\library\std\msl.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\library\std</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\library\std\roguewave.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\library\std</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\library\std\sgi.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\library\std</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\library\std\stdcpp3.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\library\std</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\library\std\stlport.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\library\std</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\library\std\vacpp.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\library\std</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\library\std\_prefix.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\library\std</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\library\std.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\library</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\library.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\make.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\os\aix.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\os</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\os\amigaos.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\os</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\os\android.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\os</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\os\beos.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\os</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\os\bsd\bsdi.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\os\bsd</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\os\bsd\dragonfly.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\os\bsd</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\os\bsd\free.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\os\bsd</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\os\bsd\net.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\os\bsd</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\os\bsd\open.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\os\bsd</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\os\bsd.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\os</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\os\cygwin.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\os</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\os\haiku.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\os</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\os\hpux.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\os</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\os\ios.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\os</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\os\irix.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\os</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\os\linux.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\os</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\os\macos.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\os</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\os\os400.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\os</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\os\qnxnto.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\os</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\os\solaris.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\os</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\os\unix.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\os</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\os\vms.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\os</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\os\windows.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\os</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\os.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\other\endian.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\other</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\other.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\platform\mingw.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\platform</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\platform\windows_desktop.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\platform</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\platform\windows_phone.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\platform</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\platform\windows_runtime.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\platform</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\platform\windows_store.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\platform</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\platform.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\version.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef\version_number.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\predef.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\arithmetic\add.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\arithmetic</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\arithmetic\dec.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\arithmetic</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\arithmetic\detail\div_base.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\arithmetic\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\arithmetic\div.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\arithmetic</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\arithmetic\inc.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\arithmetic</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\arithmetic\mod.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\arithmetic</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\arithmetic\mul.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\arithmetic</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\arithmetic\sub.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\arithmetic</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\arithmetic.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\array\data.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\array</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\array\detail\get_data.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\array\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\array\elem.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\array</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\array\enum.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\array</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\array\insert.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\array</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\array\pop_back.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\array</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\array\pop_front.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\array</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\array\push_back.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\array</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\array\push_front.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\array</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\array\remove.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\array</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\array\replace.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\array</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\array\reverse.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\array</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\array\size.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\array</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\array\to_list.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\array</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\array\to_seq.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\array</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\array\to_tuple.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\array</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\array.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\assert_msg.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\cat.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\comma.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\comma_if.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\comparison\equal.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\comparison</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\comparison\greater.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\comparison</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\comparison\greater_equal.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\comparison</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\comparison\less.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\comparison</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\comparison\less_equal.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\comparison</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\comparison\not_equal.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\comparison</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\comparison.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\config\config.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\config</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\config\limits.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\config</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\control\deduce_d.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\control</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\control\detail\dmc\while.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\control\detail\dmc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\control\detail\edg\while.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\control\detail\edg</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\control\detail\msvc\while.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\control\detail\msvc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\control\detail\while.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\control\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\control\expr_if.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\control</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\control\expr_iif.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\control</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\control\if.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\control</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\control\iif.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\control</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\control\while.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\control</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\control.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\debug.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\dec.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\detail\auto_rec.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\detail\check.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\detail\dmc\auto_rec.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\detail\dmc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\detail\is_binary.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\detail\is_nullary.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\detail\is_unary.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\detail\null.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\detail\split.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\empty.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\enum.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\enum_params.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\enum_params_with_a_default.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\enum_params_with_defaults.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\enum_shifted.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\enum_shifted_params.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\expand.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\expr_if.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\facilities\apply.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\facilities</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\facilities\detail\is_empty.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\facilities\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\facilities\empty.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\facilities</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\facilities\expand.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\facilities</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\facilities\identity.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\facilities</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\facilities\intercept.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\facilities</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\facilities\is_1.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\facilities</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\facilities\is_empty.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\facilities</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\facilities\is_empty_or_1.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\facilities</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\facilities\is_empty_variadic.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\facilities</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\facilities\overload.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\facilities</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\facilities.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\for.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\identity.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\if.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\inc.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iterate.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail\bounds\lower1.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail\bounds</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail\bounds\lower2.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail\bounds</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail\bounds\lower3.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail\bounds</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail\bounds\lower4.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail\bounds</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail\bounds\lower5.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail\bounds</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail\bounds\upper1.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail\bounds</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail\bounds\upper2.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail\bounds</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail\bounds\upper3.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail\bounds</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail\bounds\upper4.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail\bounds</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail\bounds\upper5.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail\bounds</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail\finish.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail\iter\forward1.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail\iter</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail\iter\forward2.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail\iter</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail\iter\forward3.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail\iter</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail\iter\forward4.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail\iter</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail\iter\forward5.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail\iter</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail\iter\reverse1.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail\iter</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail\iter\reverse2.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail\iter</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail\iter\reverse3.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail\iter</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail\iter\reverse4.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail\iter</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail\iter\reverse5.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail\iter</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail\local.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail\rlocal.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail\self.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail\start.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\iterate.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\local.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration\self.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\iteration.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\library.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\limits.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list\adt.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list\append.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list\at.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list\cat.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list\detail\dmc\fold_left.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list\detail\dmc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list\detail\edg\fold_left.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list\detail\edg</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list\detail\edg\fold_right.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list\detail\edg</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list\detail\fold_left.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list\detail\fold_right.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list\enum.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list\filter.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list\first_n.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list\fold_left.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list\fold_right.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list\for_each.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list\for_each_i.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list\for_each_product.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list\rest_n.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list\reverse.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list\size.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list\to_array.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list\to_seq.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list\to_tuple.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list\transform.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\list.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\logical\and.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\logical</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\logical\bitand.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\logical</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\logical\bitnor.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\logical</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\logical\bitor.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\logical</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\logical\bitxor.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\logical</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\logical\bool.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\logical</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\logical\compl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\logical</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\logical\nor.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\logical</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\logical\not.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\logical</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\logical\or.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\logical</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\logical\xor.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\logical</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\logical.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\max.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\min.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\punctuation\comma.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\punctuation</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\punctuation\comma_if.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\punctuation</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\punctuation\detail\is_begin_parens.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\punctuation\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\punctuation\is_begin_parens.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\punctuation</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\punctuation\paren.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\punctuation</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\punctuation\paren_if.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\punctuation</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\punctuation\remove_parens.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\punctuation</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\punctuation.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\repeat.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\repeat_2nd.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\repeat_3rd.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\repeat_from_to.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\repeat_from_to_2nd.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\repeat_from_to_3rd.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\repetition\deduce_r.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\repetition</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\repetition\deduce_z.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\repetition</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\repetition\detail\dmc\for.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\repetition\detail\dmc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\repetition\detail\edg\for.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\repetition\detail\edg</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\repetition\detail\for.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\repetition\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\repetition\detail\msvc\for.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\repetition\detail\msvc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\repetition\enum.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\repetition</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\repetition\enum_binary_params.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\repetition</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\repetition\enum_params.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\repetition</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\repetition\enum_params_with_a_default.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\repetition</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\repetition\enum_params_with_defaults.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\repetition</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\repetition\enum_shifted.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\repetition</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\repetition\enum_shifted_binary_params.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\repetition</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\repetition\enum_shifted_params.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\repetition</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\repetition\enum_trailing.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\repetition</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\repetition\enum_trailing_binary_params.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\repetition</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\repetition\enum_trailing_params.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\repetition</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\repetition\for.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\repetition</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\repetition\repeat.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\repetition</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\repetition\repeat_from_to.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\repetition</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\repetition.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\selection\max.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\selection</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\selection\min.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\selection</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\selection.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq\cat.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq\detail\binary_transform.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq\detail\is_empty.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq\detail\split.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq\elem.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq\enum.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq\filter.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq\first_n.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq\fold_left.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq\fold_right.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq\for_each.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq\for_each_i.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq\for_each_product.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq\insert.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq\pop_back.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq\pop_front.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq\push_back.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq\push_front.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq\remove.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq\replace.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq\rest_n.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq\reverse.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq\seq.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq\size.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq\subseq.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq\to_array.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq\to_list.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq\to_tuple.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq\transform.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq\variadic_seq_to_seq.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\seq.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\slot\counter.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\slot</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\slot\detail\counter.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\slot\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\slot\detail\def.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\slot\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\slot\detail\shared.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\slot\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\slot\detail\slot1.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\slot\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\slot\detail\slot2.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\slot\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\slot\detail\slot3.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\slot\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\slot\detail\slot4.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\slot\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\slot\detail\slot5.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\slot\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\slot\slot.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\slot</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\slot.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\stringize.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\tuple\detail\is_single_return.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\tuple\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\tuple\eat.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\tuple</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\tuple\elem.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\tuple</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\tuple\enum.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\tuple</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\tuple\insert.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\tuple</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\tuple\pop_back.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\tuple</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\tuple\pop_front.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\tuple</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\tuple\push_back.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\tuple</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\tuple\push_front.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\tuple</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\tuple\rem.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\tuple</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\tuple\remove.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\tuple</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\tuple\replace.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\tuple</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\tuple\reverse.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\tuple</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\tuple\size.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\tuple</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\tuple\to_array.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\tuple</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\tuple\to_list.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\tuple</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\tuple\to_seq.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\tuple</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\tuple.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\variadic\detail\is_single_return.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\variadic\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\variadic\elem.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\variadic</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\variadic\size.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\variadic</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\variadic\to_array.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\variadic</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\variadic\to_list.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\variadic</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\variadic\to_seq.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\variadic</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\variadic\to_tuple.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\variadic</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\variadic.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\while.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor\wstringize.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\preprocessor.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\sbuffer.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\sbuffer.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\sbuffer_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\sysdep.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\type.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\unpack.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\unpack.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\unpack_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\unpack_define.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\unpack_template.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\util.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\adaptor_base.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\adaptor_base_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\array_ref.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\array_ref_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\bool.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\boost\fusion.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\boost</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\boost\msgpack_variant.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\boost</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\boost\msgpack_variant_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\boost</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\boost\optional.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\boost</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\boost\string_ref.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\boost</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\carray.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\char_ptr.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\check_container_size.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\check_container_size_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\cpp11\array.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\cpp11</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\cpp11\array_char.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\cpp11</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\cpp11\array_unsigned_char.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\cpp11</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\cpp11\forward_list.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\cpp11</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\cpp11\reference_wrapper.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\cpp11</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\cpp11\shared_ptr.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\cpp11</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\cpp11\tuple.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\cpp11</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\cpp11\unique_ptr.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\cpp11</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\cpp11\unordered_map.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\cpp11</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\cpp11\unordered_set.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\cpp11</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\define.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\define_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\deque.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\detail\cpp03_define_array.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\detail\cpp03_define_array_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\detail\cpp03_define_map.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\detail\cpp03_define_map_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\detail\cpp03_msgpack_tuple.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\detail\cpp03_msgpack_tuple_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\detail\cpp11_define_array.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\detail\cpp11_define_array_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\detail\cpp11_define_map.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\detail\cpp11_define_map_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\detail\cpp11_msgpack_tuple.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\detail\cpp11_msgpack_tuple_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\ext.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\ext_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\fixint.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\fixint_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\float.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\int.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\int_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\list.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\map.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\map_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\msgpack_tuple.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\msgpack_tuple_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\nil.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\nil_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\pair.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\raw.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\raw_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\set.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\size_equal_only.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\size_equal_only_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\string.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\tr1\unordered_map.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\tr1</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\tr1\unordered_set.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\tr1</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\v4raw.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\v4raw_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\vector.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\vector_bool.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\vector_char.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor\vector_unsigned_char.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\cpp_config.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\cpp_config_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\detail\cpp03_zone.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\detail\cpp03_zone_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\detail\cpp11_zone.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\detail\cpp11_zone_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\fbuffer.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\fbuffer_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\iterator.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\iterator_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\meta.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\meta_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\object.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\object_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\object_fwd.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\object_fwd_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\pack.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\pack_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\preprocessor.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\sbuffer.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\sbuffer_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\unpack.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\unpack_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\version.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\versioning.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\vrefbuffer.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\vrefbuffer_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\zbuffer.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\zbuffer_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\zone.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1\zone_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v1</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\adaptor\adaptor_base.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\adaptor\adaptor_base_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\adaptor\array_ref_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\adaptor\boost\msgpack_variant_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\adaptor\boost</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\adaptor\check_container_size_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\adaptor\define_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\adaptor\detail\cpp03_define_array_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\adaptor\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\adaptor\detail\cpp03_define_map_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\adaptor\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\adaptor\detail\cpp03_msgpack_tuple_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\adaptor\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\adaptor\detail\cpp11_define_array_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\adaptor\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\adaptor\detail\cpp11_define_map_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\adaptor\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\adaptor\detail\cpp11_msgpack_tuple_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\adaptor\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\adaptor\ext_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\adaptor\fixint_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\adaptor\int_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\adaptor\map_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\adaptor\msgpack_tuple_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\adaptor\nil_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\adaptor\raw_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\adaptor\size_equal_only_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\adaptor\v4raw_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\adaptor</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\cpp_config_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\detail\cpp03_zone_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\detail\cpp11_zone_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\detail</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\fbuffer_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\iterator_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\meta_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\object.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\object_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\object_fwd.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\object_fwd_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\pack_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\sbuffer_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\unpack.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\unpack_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\vrefbuffer_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\zbuffer_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2\zone_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack\v2</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\version.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\version.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\versioning.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\version_master.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\vrefbuffer.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\vrefbuffer.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\vrefbuffer_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\zbuffer.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\zbuffer.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\zbuffer_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\zone.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\zone.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack\zone_decl.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include\msgpack</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack.h">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxMessagePack\libs\msgpack-c\include\msgpack.hpp">
+			<Filter>addons\ofxMessagePack\libs\msgpack-c\include</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ResourceCompile Include="icon.rc" />
+	</ItemGroup>
 </Project>
